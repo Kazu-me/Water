@@ -1,0 +1,28 @@
+.card {
+    border: none;
+    border-radius: 10px;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #0d6efd;
+}
+
+.btn-primary {
+    padding: 0.6rem;
+}
+
+.alert {
+    font-size: 0.9rem;
+}
+
+/* Optional: Add a subtle hover effect to the login button */
+.btn-primary:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+} 
